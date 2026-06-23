@@ -1,0 +1,44 @@
+DAY 1 DATA QUALITY REPORT
+
+Project: Mutual Fund Analytics Capstone
+
+Datasets Loaded:
+
+1. 01_fund_master.csv
+2. 02_nav_history.csv
+3. 03_aum_by_fund_house.csv
+4. 04_monthly_sip_inflows.csv
+5. 05_category_inflows.csv
+6. 06_industry_folio_count.csv
+7. 07_scheme_performance.csv
+8. 08_investor_transactions.csv
+9. 09_portfolio_holdings.csv
+10. 10_benchmark_indices.csv
+
+Data Ingestion Summary:
+
+* Successfully loaded all provided datasets using Pandas.
+* Verified dataset shapes, data types, and sample records.
+* Performed missing value inspection.
+* Performed duplicate row inspection.
+* Fetched live NAV data from MFAPI and stored as raw CSV files.
+* Retrieved NAV history for HDFC Top 100, SBI Bluechip, ICICI Bluechip, Nippon Large Cap, Axis Bluechip, and Kotak Bluechip schemes.
+
+Fund Master Exploration:
+
+* Unique fund houses identified.
+* Categories and sub-categories explored.
+* Risk categories analyzed.
+* AMFI scheme codes reviewed.
+
+AMFI Validation:
+
+* Total AMFI Codes in Fund Master: 40
+* Total AMFI Codes in NAV History: 40
+* Missing Codes: 0
+
+Result:
+All AMFI codes present in the fund master dataset were successfully found in the NAV history dataset. No referential integrity issues were detected.
+
+Conclusion:
+Data ingestion and validation completed successfully. The datasets are ready for exploratory analysis, transformation, and dashboard development in subsequent project phases.

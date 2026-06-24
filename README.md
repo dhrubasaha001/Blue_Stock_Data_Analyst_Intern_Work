@@ -112,6 +112,64 @@ https://api.mfapi.in
 * GitHub Repository
 
 ---
+## Day 2 Progress
+
+### Data Cleaning
+
+Completed cleaning and validation for:
+
+* NAV History
+* Investor Transactions
+* Scheme Performance
+
+Validation checks included:
+
+* Date parsing
+* Missing value handling
+* Duplicate removal
+* Positive value validation
+* Transaction type standardization
+* Expense ratio validation
+* Anomaly detection
+
+### Database Development
+
+Created SQLite database:
+
+```text
+bluestock_mf.db
+```
+
+Implemented star schema design with:
+
+* dim_fund
+* dim_date
+* fact_nav
+* fact_transactions
+* fact_performance
+* fact_aum
+
+### SQL Analytics
+
+Developed 10 analytical SQL queries covering:
+
+* Assets Under Management (AUM)
+* NAV analysis
+* Expense ratio screening
+* Risk analysis
+* State-wise transaction analysis
+* Investment behavior analysis
+
+### Day 2 Deliverables
+
+* 10 cleaned CSV files
+* SQLite database
+* schema.sql
+* queries.sql
+* data_dictionary.md
+* day2_quality_report.txt
+
+---
 
 ## Author
 

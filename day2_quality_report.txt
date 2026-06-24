@@ -1,0 +1,150 @@
+DAY 2 DATA QUALITY REPORT
+
+Project: Mutual Fund Analytics Capstone
+
+Date: Day 2
+
+OBJECTIVE
+Perform data cleaning, validation, database design, and data loading into SQLite for analytical processing.
+
+---
+
+## DATASETS CLEANED
+
+1. 02_nav_history.csv
+2. 08_investor_transactions.csv
+3. 07_scheme_performance.csv
+
+Additional datasets processed and stored in the processed layer:
+
+4. 01_fund_master.csv
+5. 03_aum_by_fund_house.csv
+6. 04_monthly_sip_inflows.csv
+7. 05_category_inflows.csv
+8. 06_industry_folio_count.csv
+9. 09_portfolio_holdings.csv
+10. 10_benchmark_indices.csv
+
+---
+
+## NAV HISTORY CLEANING
+
+Actions Performed:
+
+* Converted date column to datetime format
+* Sorted records by amfi_code and date
+* Forward-filled missing NAV values
+* Removed duplicate records
+* Validated NAV values greater than zero
+
+Result:
+
+* Cleaned Dataset Shape: (46000, 3)
+* Invalid NAV values removed
+* Dataset ready for time-series analysis
+
+---
+
+## INVESTOR TRANSACTIONS CLEANING
+
+Actions Performed:
+
+* Standardized transaction types
+* Validated amount_inr > 0
+* Converted transaction_date to datetime
+* Validated KYC status values
+
+Result:
+
+* Cleaned Dataset Shape: (32778, 13)
+* Invalid transaction records removed
+* Transaction categories standardized
+
+---
+
+## SCHEME PERFORMANCE CLEANING
+
+Actions Performed:
+
+* Converted return columns to numeric format
+* Validated expense ratio range
+* Flagged abnormal return values
+* Removed invalid records
+
+Result:
+
+* Cleaned Dataset Shape: (40, 20)
+* Anomalies Found: 0
+* Performance metrics validated successfully
+
+---
+
+## DATABASE DESIGN
+
+SQLite Database Created:
+bluestock_mf.db
+
+Star Schema Tables:
+
+Dimensions:
+
+* dim_fund
+* dim_date
+
+Facts:
+
+* fact_nav
+* fact_transactions
+* fact_performance
+* fact_aum
+
+Primary and foreign key relationships defined in schema.sql.
+
+---
+
+## DATABASE LOADING
+
+Table Row Counts:
+
+fund_master        : 40
+nav_history        : 46000
+transactions       : 32778
+performance        : 40
+aum                : 90
+
+Verification:
+Source row counts successfully matched loaded database tables.
+
+---
+
+## SQL ANALYTICS
+
+Created analytical SQL queries including:
+
+* Top 5 funds by AUM
+* Average NAV analysis
+* Expense ratio screening
+* Alpha ranking
+* Sharpe ratio ranking
+* Risk distribution
+* Transactions by state
+* Average investment by state
+* Transaction type distribution
+* Fund house distribution
+
+---
+
+## CONCLUSION
+
+All Day 2 objectives completed successfully.
+
+Deliverables Generated:
+
+* 10 cleaned CSV datasets
+* SQLite database
+* schema.sql
+* queries.sql
+* data_dictionary.md
+* data quality report
+
+The data warehouse layer is ready for exploratory analysis, dashboard development, and business intelligence reporting.

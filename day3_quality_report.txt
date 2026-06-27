@@ -1,0 +1,117 @@
+DAY 3 QUALITY REPORT
+
+Project: Mutual Fund Analytics Capstone
+
+Date: Day 3
+
+OBJECTIVE
+
+Perform Exploratory Data Analysis (EDA) on cleaned mutual fund datasets to identify trends, investment patterns, and business insights through statistical visualization.
+
+---
+
+## DATASETS USED
+
+* fund_master
+* nav_history_clean
+* aum_by_fund_house
+* monthly_sip_inflows
+* category_inflows
+* industry_folio_count
+* scheme_performance_clean
+* investor_transactions_clean
+* portfolio_holdings
+* benchmark_indices
+
+---
+
+## EDA TASKS COMPLETED
+
+1. Daily NAV Trend Analysis
+
+   * Visualized daily NAV movement for all schemes (2022–2026)
+   * Highlighted 2023 market recovery
+   * Highlighted 2024 market correction
+
+2. Assets Under Management Analysis
+
+   * Fund-house-wise grouped bar chart
+   * Compared yearly AUM growth
+   * Identified leading fund houses
+
+3. Monthly SIP Trend
+
+   * Time-series visualization
+   * Highlighted highest monthly SIP inflow
+   * Observed continuous long-term growth
+
+4. Category-wise Net Inflow
+
+   * Heatmap visualization
+   * Compared monthly inflows across fund categories
+
+5. Investor Demographics
+
+   * Age distribution
+   * Gender distribution
+   * Investment amount boxplot
+
+6. Geographic Analysis
+
+   * State-wise investment amount
+   * T30 vs B30 city participation
+
+7. Industry Folio Growth
+
+   * Growth trend visualization
+   * Beginning and ending milestones highlighted
+
+8. Daily Return Correlation
+
+   * Correlation matrix for selected mutual funds
+   * Relationship between scheme returns analyzed
+
+9. Sector Allocation
+
+   * Donut chart of sector allocation
+   * Portfolio diversification overview
+
+---
+
+## KEY INSIGHTS
+
+1. Mutual fund NAVs showed a strong long-term upward trend.
+
+2. SBI Mutual Fund maintained the largest Assets Under Management.
+
+3. Monthly SIP inflows increased steadily throughout the observed period.
+
+4. Equity-oriented funds attracted the highest inflows.
+
+5. Middle-aged investors represented the largest investing group.
+
+6. T30 cities contributed more investment volume than B30 cities.
+
+7. Industry folio counts nearly doubled over the study period.
+
+8. Large-cap funds exhibited stronger positive return correlations.
+
+9. Financial Services remained the largest portfolio sector.
+
+10. Overall industry indicators reflected sustained growth in the Indian mutual fund ecosystem.
+
+---
+
+## OUTPUTS GENERATED
+
+* Jupyter Notebook (EDA_Analysis.ipynb)
+* 15+ Visualizations
+* PNG / Interactive HTML Charts
+* Markdown Insights
+* Exported Report Assets
+
+---
+
+## CONCLUSION
+
+The exploratory data analysis successfully identified major investment trends, fund performance patterns, investor behavior, and sector allocation insights. The project is now prepared for dashboard development and business intelligence reporting.

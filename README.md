@@ -170,6 +170,58 @@ Developed 10 analytical SQL queries covering:
 * day2_quality_report.txt
 
 ---
+## Day 3 – Exploratory Data Analysis (EDA)
+
+### Objectives
+
+* Perform exploratory analysis on cleaned mutual fund datasets
+* Visualize investment trends using Plotly, Matplotlib, and Seaborn
+* Generate business insights from historical data
+
+### Charts Created
+
+* Daily NAV Trend
+* AUM Growth by Fund House
+* Monthly SIP Trend
+* Category Inflow Heatmap
+* Investor Age Distribution
+* SIP Amount Boxplot
+* Gender Distribution
+* State-wise Investment Distribution
+* City Tier Distribution
+* Industry Folio Growth
+* NAV Return Correlation Matrix
+* Sector Allocation Donut Chart
+
+### Key Findings
+
+* Long-term NAV growth observed across schemes
+* SBI Mutual Fund maintained the highest AUM
+* SIP inflows reached record highs in late 2025
+* Equity funds dominated net inflows
+* Investor participation increased steadily
+* Strong positive correlations existed among large-cap funds
+
+### Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Plotly
+* Matplotlib
+* Seaborn
+* SQLite
+* SQLAlchemy
+* Jupyter Notebook
+
+### Deliverables
+
+* EDA_Analysis.ipynb
+* 15+ Visualizations
+* Exported Chart Assets
+* Day 3 Quality Report
+
+---
 
 ## Author
 

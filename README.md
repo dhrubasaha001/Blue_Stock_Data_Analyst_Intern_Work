@@ -222,6 +222,60 @@ Developed 10 analytical SQL queries covering:
 * Day 3 Quality Report
 
 ---
+## Day 4 – Fund Performance Analytics
+
+### Objectives
+
+* Calculate financial performance metrics
+* Compare mutual funds against benchmark indices
+* Rank funds using multi-factor performance scoring
+
+### Analytics Performed
+
+* Daily Return Calculation
+* CAGR Analysis
+* Sharpe Ratio
+* Sortino Ratio
+* Alpha & Beta Estimation
+* Maximum Drawdown
+* Composite Fund Scorecard
+* Benchmark Comparison
+
+### Outputs Generated
+
+* Performance_Analytics.ipynb
+* fund_scorecard.csv
+* alpha_beta.csv
+* benchmark_comparison.png
+
+### Performance Metrics
+
+* Risk-adjusted return evaluation
+* Downside risk analysis
+* Benchmark comparison
+* Market sensitivity analysis
+* Composite ranking methodology
+
+### Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* SciPy
+* Matplotlib
+* Seaborn
+* Plotly
+* Jupyter Notebook
+
+### Deliverables
+
+* Performance Analytics Notebook
+* Benchmark Comparison Charts
+* Alpha & Beta Report
+* Fund Scorecard
+* Day 4 Quality Report
+
+---
 
 ## Author
 

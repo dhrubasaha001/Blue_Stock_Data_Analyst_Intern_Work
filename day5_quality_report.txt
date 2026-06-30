@@ -1,0 +1,82 @@
+DAY 5 QUALITY REPORT
+
+Project: Mutual Fund Analytics Dashboard
+
+Date: Day 5
+
+OBJECTIVE
+
+Develop an interactive Power BI dashboard for Mutual Fund Analytics using cleaned datasets from previous project stages.
+
+--------------------------------------------------
+DATA SOURCES
+--------------------------------------------------
+
+- fund_master_clean.csv
+- nav_history_clean.csv
+- aum_by_fund_house_clean.csv
+- monthly_sip_inflows_clean.csv
+- category_inflows_clean.csv
+- industry_folio_count_clean.csv
+- scheme_performance_clean.csv
+- investor_transactions_clean.csv
+- benchmark_indices.csv
+- portfolio_holdings.csv
+
+--------------------------------------------------
+DASHBOARD PAGES
+--------------------------------------------------
+
+1. Industry Overview
+- KPI Cards
+- Industry AUM Trend
+- AUM by Fund House
+
+2. Fund Performance
+- Risk vs Return Scatter Plot
+- Fund NAV Trend
+- Benchmark Trend
+- Fund Performance Table
+
+3. Investor Analytics
+- Transaction Amount by State
+- Transaction Type Distribution
+- Average Investment by Age Group
+- Transaction Trend
+- Interactive Filters
+
+4. SIP & Market Trends
+- Monthly SIP Inflow Trend
+- Benchmark Market Trend
+- Category Inflow Analysis
+- Top Categories by Net Inflow
+
+--------------------------------------------------
+FEATURES IMPLEMENTED
+--------------------------------------------------
+
+- Interactive dashboard
+- Multiple report pages
+- Charts and KPI cards
+- Data relationships
+- Slicers for filtering
+- Benchmark comparison
+- Industry overview
+- Investor analytics
+- Fund performance analysis
+
+--------------------------------------------------
+DELIVERABLES
+--------------------------------------------------
+
+Generated Files
+
+- bluestock_mf_dashboard.pbix
+- Dashboard.pdf
+- Dashboard Screenshots
+
+--------------------------------------------------
+CONCLUSION
+--------------------------------------------------
+
+Day 5 dashboard development was successfully completed. Multiple interactive dashboards were created using Power BI to visualize industry trends, fund performance, investor analytics, and SIP market insights.

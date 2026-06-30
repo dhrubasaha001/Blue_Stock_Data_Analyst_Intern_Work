@@ -276,6 +276,53 @@ Developed 10 analytical SQL queries covering:
 * Day 4 Quality Report
 
 ---
+## Day 5 – Power BI Dashboard Development
+
+### Objective
+
+Build an interactive business intelligence dashboard for Mutual Fund Analytics using Power BI.
+
+### Dashboard Pages
+
+### 1. Industry Overview
+- KPI Cards
+- Industry AUM Trend
+- AUM by Fund House
+
+### 2. Fund Performance
+- Risk vs Return Scatter Plot
+- Fund NAV Trend
+- Benchmark Comparison
+- Fund Performance Table
+
+### 3. Investor Analytics
+- State-wise Investment Analysis
+- Transaction Type Distribution
+- Age Group Analysis
+- Monthly Transaction Trend
+- Interactive Filters
+
+### 4. SIP & Market Trends
+- Monthly SIP Inflow Trend
+- Market Benchmark Trend
+- Category Inflow Analysis
+- Top Performing Categories
+
+### Tools Used
+
+- Microsoft Power BI
+- Python
+- Pandas
+- SQLite
+- SQL
+
+### Deliverables
+
+- Power BI Dashboard (.pbix)
+- Dashboard PDF
+- Dashboard Screenshots
+- Day 5 Quality Report
+---
 
 ## Author
 
